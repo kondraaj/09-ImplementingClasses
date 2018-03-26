@@ -80,7 +80,7 @@ class Point(object):
         dist_x = math.fabs(self.x - point.x)
         dist_y = math.fabs(self.y - point.y)
         distance = math.sqrt((dist_x ** 2) + (dist_y ** 2))
-        return distance
+        return distance 
 
     def get_distance_from_start(self):
         x = self.x
